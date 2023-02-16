@@ -1,0 +1,207 @@
+body {
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+
+/* alle menu opmaak */
+.balk {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 5, 99);
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.midden {
+    display: flex;
+    gap: 10px;
+}
+
+.rechts {
+    display: flex;
+    gap: 10px;
+}
+
+
+#logo_white {
+    height: 50px;
+}
+
+.home {
+    display: flex;
+}
+
+.icon {
+    height: 50px;
+}
+
+.icon_text {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.universe {
+    display: flex;
+}
+
+
+.reviews {
+    display: flex;
+
+}
+
+#reviews_icon {
+    height: 50px;
+}
+
+.review_text {
+    color: white;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    height: 30px;
+    border-radius: 12px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 10px;
+}
+
+#feedback_icon {
+    height: 30px;
+}
+
+.feedback_icon {
+    color: #3ca771;
+}
+
+.doelen {
+    display: flex;
+}
+
+.leaderboard {
+    display: flex;
+}
+
+#leaderboard_icon {
+    height: 50px;
+}
+
+.leaderboard_text {
+    color: white;
+}
+
+.meer2 {
+    display: flex;
+}
+
+.level_balk {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.credits {
+    display: flex;
+    margin-top: 5px;
+}
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 200%;
+    margin-top: 5px;
+}
+
+#meer_icon {
+    width: 55px;
+}
+
+/* alle content opmaak */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.one-v-one {
+    padding-top: 45px;
+}
+
+.review_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles {
+    display: flex;
+    gap: 30px;
+}
+
+.over_1-1 {
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    border-color: gray;
+    width: 300px;
+    padding: 10px;
+}
+
+.vul {
+    background-color: #3ca771;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 3px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 300px;
+    
+}
+
+th {
+    text-align: inherit;
+    width: 600px;
+}
+
+tr {
+    border-style: outset;
+    border-color: grey;
+    width: 900px;
+    height: 2cm;
+}
+
+.tr2 {
+    width: 900px;
+    height: 2cm;
+    border-left-style: outset;
+    border-right-style: outset;
+    border-top: white;
+    border-bottom: white;
+}
+
+.bekijk {
+    background-color: #3ca771;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
